@@ -3,3 +3,77 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav > a {
+  color: gray;
+  padding: 10px;
+}
+
+figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+figure figcaption {
+  text-align: center;
+  font-size: smaller;
+}
+
+#featured-property > p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
+  width: 800px;
+}
+
+div {
+  background: red;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+/*
+Modified the div's in the index.html file. Each of the divs have a unique class name
+*/
+
+.left {
+  width: 25%;
+}
+
+.left-center {
+  width: 25%;
+}
+
+.right-center {
+  width: 25%;
+}
+
+.right {
+  width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
